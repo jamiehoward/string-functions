@@ -63,7 +63,7 @@ if (isset($_POST['stringToEncrypt']))
 			<h1 class="header">String functions</h1> 
 			<form action="./index.php" class="form-horizontal" method="POST">
 				<div class="control-group">
-					<label for="string-to-encrypt" class="control-label">String to encrypt</label>
+					<label for="string-to-encrypt" class="control-label">String to transform</label>
 					<textarea id="string-to-encrypt" name="stringToEncrypt" class="form-control"><?php if ($_POST['stringToEncrypt']) { echo $_POST['stringToEncrypt']; } ?></textarea>
 				</div>
 				<div class="control-group">
